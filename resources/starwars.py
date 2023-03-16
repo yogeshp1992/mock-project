@@ -11,6 +11,9 @@ from flask import Blueprint, request, Response
 from dal.dml import fetch_resource
 from models.datamodels.characters import Character_
 from pydantic import parse_obj_as
+
+
+# Blueprit class instantiation
 starwar_app = Blueprint("starwars", __name__, url_prefix="/starwars")
 
 

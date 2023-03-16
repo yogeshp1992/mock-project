@@ -35,6 +35,29 @@ user_auth_api (project root)
 
 
 
+```
+MicroFinanceLoanPortal (project root)
+    - IDAM 
+        - 127.0.0.1:5000/idam/user/signup
+        - 127.0.0.1:5000/idam/user/login
+        - 127.0.0.1:5000/idam/user/email_verification
+        - 127.0.0.1:5000/idam/user/mobile_verification
+        - 127.0.0.1:5000/idam/user/pan_upload
+        
+    - LoanProcessing
+        - 127.0.0.1:5000/loan/cibil
+        - 127.0.0.1:5000/loan/credit_history
+        - 127.0.0.1:5000/loan/types
+        - 127.0.0.1:5000/loan/document_verification
+        - 127.0.0.1:5000/loan/application_submittion
+    
+
+
+
+```
+
+
+
 
 
 ```
